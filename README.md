@@ -20,16 +20,3 @@ This project implements a Priority-Based Round Robin Scheduling Algorithm in C++
 7. **Equal Priority Processes**: For processes arriving at the same time with equal priorities, they are scheduled in the order listed in the input file.
 8. **FCFS Tie-Breaking**: First-Come-First-Serve (FCFS) is used to break any other ties encountered during scheduling.
 
-## Getting Started
-
-### Prerequisites
-
-- A Linux environment
-- A C++ compiler (e.g., `g++`)
-
-### Compilation
-
-Compile the program using the following command:
-
-```bash
-g++ -o scheduler main.cpp
